@@ -1,7 +1,7 @@
 FROM orboan/dcsss-httpd-php
 MAINTAINER Oriol Boix Anfosso <dev@orboan.com>
 
-RUN yum update
+RUN yum update -y
 
 RUN \ 
 cd /var/www/html && \
