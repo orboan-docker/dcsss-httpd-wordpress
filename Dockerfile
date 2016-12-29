@@ -1,8 +1,6 @@
 FROM orboan/dcsss-httpd-php
 MAINTAINER Oriol Boix Anfosso <dev@orboan.com>
 
-RUN yum update -y
-
 RUN \ 
 cd /var/www/html && \
 wget https://wordpress.org/latest.tar.gz && \

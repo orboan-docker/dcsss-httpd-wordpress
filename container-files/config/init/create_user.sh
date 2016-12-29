@@ -15,6 +15,6 @@ echo "${user}:iaw" | chpasswd
 echo "${user}  ALL=(ALL)  NOPASSWD: ALL" > /etc/sudoers.d/$user
 echo "user created"
 fi
-#mkdir -p /var/$user/html
-chown $user:$user /var/$user/html
+cp /etc/skel/.b* /var/$user
+chown -R $user:$user /var/$user
 
