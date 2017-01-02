@@ -21,5 +21,8 @@ ENV MYSQL_DATABASE=wp
 ENV MYSQL_USER=wp_user
 ENV MYSQL_PASSWORD=iaw
 ENV WP_URL=http://iaw.io/wp
- 
+
+ENV USER=www
+ENV PASSWORD=iaw 
+
 ADD container-files /
